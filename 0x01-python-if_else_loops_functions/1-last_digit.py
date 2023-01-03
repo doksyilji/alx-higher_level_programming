@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 
-l_num = (number/number) * int(str(number)[-1]))
+l_num = (number/number) * int(str(number)[-1])
 if int(str(number)[-1]) > 0 and int(str(number)[-1]) < 6: 
     print("Last digit of {} is {} and is less than 6 and not 0".format(number, l_num)
 
