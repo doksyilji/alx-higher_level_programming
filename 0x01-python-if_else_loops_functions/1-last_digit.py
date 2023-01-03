@@ -6,7 +6,7 @@ l_num = abs(number) % 10
 if number < 0:
     l_num = l_num * -1
 
-if abs(number) % 10 < 6:
+if abs(number) % 10 < 6 and abs(number) % 10 != 0:
     print("Last digit of {} is {} and is less than 6 and not 0".format(number, l_num))
 
 elif abs(number) % 10 > 5:
